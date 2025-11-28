@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>School Management Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">📘 ia Academy</div>
+    <nav>
+      <a href="#" class="menu active" data-page="dashboard">Dashboard</a>
+      <a href="#" class="menu" data-page="students">Students</a>
+      <a href="#" class="menu" data-page="teachers">Teachers</a>
+      <a href="#" class="menu" data-page="finance">Finance</a>
+      <a href="#" class="menu" data-page="library">Library</a>
+      <a href="#" class="menu" data-page="attendance">Attendance</a>
+      <a href="#" class="menu" data-page="settings">Settings</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <input type="text" placeholder="Search here..." class="search"/>
+      <div class="profile">👩🏻‍💼 Priscilla</div>
+    </header>
+
+    <section class="content" id="content"></section>
+  </main>
+
+<script src="scrpt.js"></script>
+</body>
+</html>
